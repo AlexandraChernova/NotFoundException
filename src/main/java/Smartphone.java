@@ -10,7 +10,4 @@ public class Smartphone extends Product {
         return producer;
     }
 
-    public void setProducer(String producer) {
-        this.producer = producer;
-    }
 }
