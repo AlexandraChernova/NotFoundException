@@ -6,17 +6,8 @@ public class Book extends Product {
         super(id, name, price);
         this.author = author;
     }
-
     public String getAuthor() {
         return author;
     }
 
-
-    public boolean isTooExpensive() {
-        if (price > 1_000) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 }
