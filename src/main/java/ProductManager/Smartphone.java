@@ -1,3 +1,4 @@
+package ProductManager;
 public class Smartphone extends Product {
     private String producer;
 

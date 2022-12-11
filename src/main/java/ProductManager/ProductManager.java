@@ -1,3 +1,4 @@
+package ProductManager;
 public class ProductManager {
     private ProductRepository repo;
 
@@ -25,6 +26,7 @@ public class ProductManager {
         }
         return result;
     }
+
 
     public boolean matches(Product product, String search) {
         if (product.getName().contains(search)) {
